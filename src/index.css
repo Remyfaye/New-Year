@@ -62,9 +62,10 @@ body {
 .logo {
   font-family: "DM Serif Display", serif;
   color: white;
-  font-size: 8rem;
-  letter-spacing: 0.5rem;
+  font-size: 7.2rem;
+  /* letter-spacing: 0.5rem; */
   padding: 0;
+  width: 100%;
   margin: 0;
   transform: translateY(-50%);
   position: absolute;
@@ -210,8 +211,10 @@ body {
 
 @media screen and (max-width: 768px) {
   .logo {
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.25rem;
+    
+    text-align: center;
   }
 
   .intro--disappear .logo {
